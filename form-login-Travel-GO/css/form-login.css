@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    background-color: #FAFAFA;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.input-style {
+    background: #F2F2F2; 
+    border-color: #F2F2F2; 
+    font-size: 12px; 
+    font-family: 'Poppins', sans-serif; 
+    color: #7E7D7D;
+    margin-left: -20px;
+    height: 48px;
+    font-weight: 500;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif; 
+    color: #7E7D7D;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.poppins:hover {
+    font-family: 'Poppins', sans-serif; 
+    color: #3BCEB1;
+    cursor: pointer;
+}
+
+.link-forgot-password {
+    color: #7E7D7D;
+    transition: 0.5s;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.rememberme {
+    float: left;
+}
+
+.link-forgot-password:hover {
+    color: #FFC107;
+}
+
+.link-daftar {
+    color: rgb(49, 49, 49);
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+.link-daftar:hover {
+    color: #FFC107;
+}
+
+.poppins-bold {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bold;
+}
+
+#btn-login {
+    border-color:#FFC107; 
+    background: #FFC107; 
+    font-size: 14px; 
+    color: #FFFFFF; 
+    width: 139px; 
+    height: 48px;
+}
+
+.media-left {
+    margin-left: 120px;
+}
+
+@media screen and (max-width: 600px) {
+    .media-left {
+        margin-left: 10px;
+        width: 100%;    
+    }
+    
+    .img-banner {
+        display: none;
+    }
+
+    .rememberme {
+        margin-left: -16px;
+        float: left;
+    }
+
+
+  }
+
+@media screen and (min-device-width: 576px) and (max-device-width: 900px) {
+    .media-left {
+        margin-left: 10px;
+        width: 100%;    
+    }
+
+    .input-group {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .link-forgot-password {
+        margin-right: 30px;
+    }
+
+    .rememberme {
+        float: left;
+    }
+
+    #btn-login {
+        margin-left: -10px;
+    }
+
+    .mt-3 {
+        margin-left: -10px;
+    }
+    
+    .img-banner {
+        display: none;
+    }
+
+}
